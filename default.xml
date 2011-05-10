@@ -74,7 +74,7 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" />
   <project path="external/bison" name="platform/external/bison" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" />
+  <project path="external/busybox" name="Quarx2k/android_external_busybox" revision="1_19" remote="github" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" remote="github" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
