@@ -58,7 +58,7 @@
   <project path="device/htc/supersonic" name="CyanogenMod/android_device_htc_supersonic" remote="github" />
   <project path="device/htc/vision" name="CyanogenMod/android_device_htc_vision" remote="github" />
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
-  <project path="device/motorola/jordan" name="tpruvot/android_device_motorola_umts_jordan" remote="github"/>
+  <project path="device/motorola/jordan" name="tpruvot/android_device_motorola_umts_jordan" remote="github" revision="gingerbread"/>
   <project path="device/motorola/stingray" name="CyanogenMod/android_device_motorola_stingray" remote="github" />
   <project path="device/motorola/zeppelin" name="CyanogenMod/android_device_motorola_zeppelin" remote="github" />
   <project path="device/nvidia/harmony" name="CyanogenMod/android_device_harmony" remote="github" />
@@ -74,7 +74,7 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" />
   <project path="external/bison" name="platform/external/bison" />
-  <project path="external/busybox" name="Quarx2k/android_external_busybox" revision="1_19" remote="github" />
+  <project path="external/busybox" name="tpruvot/android_external_busybox" revision="gingerbread" remote="github" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" remote="github" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
