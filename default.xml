@@ -51,12 +51,17 @@
   <project path="device/htc/leo" name="CyanogenMod/android_device_htc_leo" remote="github" />
   <project path="device/htc/liberty" name="CyanogenMod/android_device_htc_liberty" remote="github" />
   <project path="device/htc/mecha" name="CyanogenMod/android_device_htc_mecha" remote="github" />
+  <project path="device/htc/msm7x30-common" name="CyanogenMod/android_device_htc_msm7x30-common" remote="github" />
   <project path="device/htc/passion" name="CyanogenMod/android_device_htc_passion" remote="github" />
   <project path="device/htc/passion-common" name="CyanogenMod/android_device_htc_passion-common" remote="github" />
   <project path="device/htc/saga" name="CyanogenMod/android_device_htc_saga" remote="github" />
   <project path="device/htc/speedy" name="CyanogenMod/android_device_htc_speedy" remote="github" />
   <project path="device/htc/supersonic" name="CyanogenMod/android_device_htc_supersonic" remote="github" />
   <project path="device/htc/vision" name="CyanogenMod/android_device_htc_vision" remote="github" />
+  <project path="device/lge/p990" name="CyanogenMod/android_device_lge_p990" remote="github" />
+  <project path="device/lge/p999" name="CyanogenMod/android_device_lge_p999" remote="github" />
+  <project path="device/lge/star-common" name="CyanogenMod/android_device_lge_star-common" remote="github" />
+  <project path="device/lge/thunderg" name="CyanogenMod/android_device_lge_thunderg" remote="github" />
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
   <project path="device/motorola/jordan" name="Quarx2k/android_device_motorola_umts_jordan" remote="github"/>
   <project path="device/motorola/stingray" name="CyanogenMod/android_device_motorola_stingray" remote="github" />
@@ -64,6 +69,7 @@
   <project path="device/nvidia/harmony" name="CyanogenMod/android_device_harmony" remote="github" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/crespo" name="CyanogenMod/android_device_samsung_crespo" remote="github" />
+  <project path="device/samsung/crespo4g" name="CyanogenMod/android_device_samsung_crespo4g" remote="github" />
   <project path="device/samsung/epic4g" name="CyanogenMod/android_device_samsung_epic4g" remote="github" />
   <project path="device/samsung/fascinate" name="CyanogenMod/android_device_samsung_fascinate" remote="github" />
   <project path="device/samsung/vzwtab" name="CyanogenMod/android_device_samsung_vzwtab" remote="github" />
@@ -195,6 +201,7 @@
   <project path="packages/apps/CMStats" name="CyanogenMod/android_packages_apps_CMStats" remote="github" />
   <project path="packages/apps/CMUpdateNotify" name="CyanogenMod/android_packages_apps_CMUpdateNotify" remote="github" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" remote="github" />
+  <project path="packages/apps/CMWimaxSettings" name="CyanogenMod/android_packages_apps_CMWimaxSettings" remote="github" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="github" />
   <project path="packages/apps/DSPManager" name="Quarx2k/android_packages_apps_DSPManager" remote="github" revision="gingerbread" />
