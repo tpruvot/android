@@ -149,7 +149,7 @@
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
-  <project path="external/qemu" name="platform/external/qemu" revision="tools_r7" />
+  <project path="external/qemu" name="CyanogenMod/android_external_qemu" remote="github" revision="tools_r7" />
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" remote="github" revision="master" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
@@ -174,7 +174,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" remote="github" />
+  <project path="frameworks/base" name="Quarx2k/android_frameworks_base" remote="github" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
