@@ -281,6 +281,6 @@
 
   <project path="android" name="tpruvot/android" remote="github" />
 
-  <project path="external/DroidSSHD" name="tpruvot/android_external_droidsshd" revision="gingerbread" remote="github" />
+  <project path="external/DroidSSHd" name="tpruvot/android_external_droidsshd" revision="gingerbread" remote="github" />
 
 </manifest>
