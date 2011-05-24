@@ -20,6 +20,12 @@ git push
 
 
 
+for this example, you need to define upstream remotes in your git directory with the forked project :
+
+git remote add quarx git://github.com/Quarx2k/android_device_motorola_umts_jordan.git
+
+
+
 Now, we create another script to select the wanted projects (named /git/defy_cyanogen_update.sh)
 
 #!/bin/bash
