@@ -38,7 +38,7 @@ cd /git/android_vendor_cyanogen && ./merge_cron.sh
 cd /git/android_bootable_recovery && ./merge_cron.sh
 
 # remove duplicates from log to keep date of sync and updated projects
-cat /git/merge_cron_log.txt | grep -v "Already up-to-date." | uniq > /git/merge_cron_log.txt
+cat /git/merge_cron_log.txt | grep -v "Already up-to-date." | uniq > /git/merge_cron.log
 
 
 
