@@ -65,8 +65,8 @@
 <!--  <project path="device/lge/star-common" name="CyanogenMod/android_device_lge_star-common" remote="github" /> -->
 <!--  <project path="device/lge/thunderg" name="CyanogenMod/android_device_lge_thunderg" remote="github" /> -->
 
-  <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
   <project path="device/motorola/jordan" name="tpruvot/android_device_motorola_umts_jordan" remote="github" revision="gingerbread"/>
+  <project path="device/motorola/sholes" name="gfunkmonk/android_device_motorola_sholes" remote="github" />
   <project path="device/motorola/stingray" name="CyanogenMod/android_device_motorola_stingray" remote="github" />
   <project path="device/motorola/zeppelin" name="CyanogenMod/android_device_motorola_zeppelin" remote="github" />
 
