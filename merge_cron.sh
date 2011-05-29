@@ -10,7 +10,7 @@ git pull
 #git merge remotes/tpruvot/gingerbread
 
 # git remote add quarx git://github.com/Quarx2k/android.git
-git fetch quarx
-git merge remotes/quarx/gingerbread
+#git fetch quarx
+#git merge remotes/quarx/gingerbread
 
-git push
+# git push
