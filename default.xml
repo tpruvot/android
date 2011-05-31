@@ -34,6 +34,7 @@
   <project path="device/geeksphone/zero" name="CyanogenMod/android_device_geeksphone_zero" remote="github" />
   <project path="device/huawei/ascend" name="CyanogenMod/android_device_huawei_ascend" remote="github" />
   <project path="device/huawei/ideos" name="CyanogenMod/android_device_huawei_ideos" remote="github" />
+  <project path="device/huawei/u8220" name="CyanogenMod/android_device_huawei_u8220" remote="github" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="github" />
   <project path="device/htc/ace" name="CyanogenMod/android_device_htc_ace" remote="github" />
   <project path="device/htc/bravo" name="CyanogenMod/android_device_htc_bravo" remote="github" />
@@ -60,10 +61,10 @@
   <project path="device/htc/supersonic" name="CyanogenMod/android_device_htc_supersonic" remote="github" />
 
   <project path="device/htc/vision" name="CyanogenMod/android_device_htc_vision" remote="github" />
-<!--  <project path="device/lge/p990" name="CyanogenMod/android_device_lge_p990" remote="github" /> -->
-<!--  <project path="device/lge/p999" name="CyanogenMod/android_device_lge_p999" remote="github" /> -->
+  <project path="device/lge/p990" name="CyanogenMod/android_device_lge_p990" remote="github" />
+  <project path="device/lge/p999" name="CyanogenMod/android_device_lge_p999" remote="github" />
   <project path="device/lge/star-common" name="CyanogenMod/android_device_lge_star-common" remote="github" />
-<!--  <project path="device/lge/thunderg" name="CyanogenMod/android_device_lge_thunderg" remote="github" /> -->
+  <project path="device/lge/thunderg" name="CyanogenMod/android_device_lge_thunderg" remote="github" />
 
   <project path="device/motorola/jordan" name="tpruvot/android_device_motorola_umts_jordan" remote="github" revision="gingerbread"/>
   <project path="device/motorola/sholes" name="gfunkmonk/android_device_motorola_sholes" remote="github" />
