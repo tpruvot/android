@@ -71,7 +71,7 @@
   <project path="device/malata/smb_a1011" name="CyanogenMod/android_device_malata_smb_a1011" remote="github" />
   <project path="device/malata/smb_b9701" name="CyanogenMod/android_device_malata_smb_b9701" remote="github" />
 
-  <project path="device/motorola/jordan" name="tpruvot/android_device_motorola_umts_jordan" remote="github" revision="gingerbread"/>
+  <project path="device/motorola/jordan" name="CyanogenDefy/android_device_motorola_jordan" remote="github" />
   <project path="device/motorola/sholes" name="gfunkmonk/android_device_motorola_sholes" remote="github" />
   <project path="device/motorola/morrison" name="CyanogenMod/android_device_motorola_morrison" remote="github" />
   <project path="device/motorola/stingray" name="CyanogenMod/android_device_motorola_stingray" remote="github" />
