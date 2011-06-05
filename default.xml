@@ -14,7 +14,7 @@
   <default revision="gingerbread"
            remote="korg" />
 
-  <project path="build" name="tpruvot/android_build" remote="github">
+  <project path="build" name="CyanogenMod/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" />
@@ -72,8 +72,8 @@
   <project path="device/malata/smb_b9701" name="CyanogenMod/android_device_malata_smb_b9701" remote="github" />
 
   <project path="device/motorola/jordan" name="CyanogenDefy/android_device_motorola_jordan" remote="github" />
-  <project path="device/motorola/sholes" name="gfunkmonk/android_device_motorola_sholes" remote="github" />
   <project path="device/motorola/morrison" name="CyanogenMod/android_device_motorola_morrison" remote="github" />
+  <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
   <project path="device/motorola/stingray" name="CyanogenMod/android_device_motorola_stingray" remote="github" />
   <project path="device/motorola/zeppelin" name="CyanogenMod/android_device_motorola_zeppelin" remote="github" />
 
@@ -81,6 +81,7 @@
 
   <project path="device/samsung/aries-common" name="CyanogenMod/android_device_samsung_aries-common" remote="github" />
   <project path="device/samsung/captivatemtd" name="CyanogenMod/android_device_samsung_captivatemtd" remote="github" />
+  <project path="device/samsung/charge" name="CyanogenMod/android_device_samsung_charge" remote="github" />
   <project path="device/samsung/crespo" name="CyanogenMod/android_device_samsung_crespo" remote="github" />
   <project path="device/samsung/crespo4g" name="CyanogenMod/android_device_samsung_crespo4g" remote="github" />
   <project path="device/samsung/epic4g" name="CyanogenMod/android_device_samsung_epic4g" remote="github" />
@@ -204,7 +205,7 @@
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" />
   <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" remote="github" />
-  <project path="hardware/ti" name="Quarx2k/android_hardware_ti" remote="github" revision="master" /> 
+  <project path="hardware/ti" name="Quarx2k/android_hardware_ti" remote="github" revision="master" />
 
   <project path="libcore" name="CyanogenMod/android_libcore" remote="github" />
   <project path="ndk" name="platform/ndk" />
@@ -289,7 +290,7 @@
   <project path="vendor/tmobile/themes/Cyanbread" name="themes-platform-vendor-tmobile-themes-Cyanbread" remote="themes" revision="master" />
   <project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="themes" revision="master" />
 
-  <project path="android" name="tpruvot/android" remote="github" />
+  <project path="android" name="CyanogenDefy/android" remote="github" />
 
   <project path="external/DroidSSHd" name="tpruvot/android_external_droidsshd" revision="gingerbread" remote="github" />
 
