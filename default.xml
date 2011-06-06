@@ -71,7 +71,7 @@
   <project path="device/malata/smb_a1011" name="CyanogenMod/android_device_malata_smb_a1011" remote="github" />
   <project path="device/malata/smb_b9701" name="CyanogenMod/android_device_malata_smb_b9701" remote="github" />
 
-  <project path="device/motorola/jordan" name="CyanogenDefy/android_device_motorola_jordan" remote="github" />
+  <project path="device/motorola/jordan" name="tpruvot/android_device_motorola_umts_jordan" remote="github" />
   <project path="device/motorola/morrison" name="CyanogenMod/android_device_motorola_morrison" remote="github" />
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
   <project path="device/motorola/stingray" name="CyanogenMod/android_device_motorola_stingray" remote="github" />
@@ -123,7 +123,7 @@
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" remote="github" />
-  <project path="external/freetype" name="platform/external/freetype" />
+  <project path="external/freetype" name="CyanogenMod/android_external_freetype" remote="github" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
@@ -192,7 +192,7 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" />
 
-  <project path="frameworks/base" name="CyanogenDefy/android_frameworks_base" remote="github" />
+  <project path="frameworks/base" name="tpruvot/android_frameworks_base" remote="github" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
 
@@ -205,7 +205,7 @@
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" />
   <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" remote="github" />
-  <project path="hardware/ti" name="CyanogenDefy/android_hardware_ti" remote="github" revision="master" />
+  <project path="hardware/ti" name="Quarx2k/android_hardware_ti" remote="github" revision="master" />
 
   <project path="libcore" name="CyanogenMod/android_libcore" remote="github" />
   <project path="ndk" name="platform/ndk" />
@@ -226,7 +226,7 @@
   <project path="packages/apps/CMWimaxSettings" name="CyanogenMod/android_packages_apps_CMWimaxSettings" remote="github" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="github" />
-  <project path="packages/apps/DSPManager" name="CyanogenDefy/android_packages_apps_DSPManager" remote="github" revision="gingerbread" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="github" />
   <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" remote="github" />
   <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="github" />
@@ -290,6 +290,8 @@
   <project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="themes" revision="master" />
 
   <project path="android" name="CyanogenDefy/android" remote="github" />
+
+  <project path="vendor/motorola/jordan" name="tpruvot/android_vendor_motorola_jordan" remote="github" />
 
   <project path="external/DroidSSHd" name="tpruvot/android_external_droidsshd" revision="gingerbread" remote="github" />
 
