@@ -228,7 +228,7 @@
   <project path="packages/apps/CMWimaxSettings" name="CyanogenMod/android_packages_apps_CMWimaxSettings" remote="github" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="github" />
-  <project path="packages/apps/DSPManager" name="tpruvot/android_packages_apps_DSPManager" remote="github" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="github" />
   <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" remote="github" />
   <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="github" />
@@ -271,13 +271,15 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
 
   <project path="prebuilt" name="platform/prebuilt" />
-<!--  <project path="sdk" name="platform/sdk" revision="tools_r7" /> -->
+  <project path="sdk" name="platform/sdk" revision="tools_r7" />
 
+  <!-- 
+  2 empty repo to remove these directories for sdk r11 compat
   <project path="sdk" name="platform/sdk" revision="tools_r11" />
 
-  <!-- 2 empty repo to remove these directories for sdk r11 compat -->
   <project path="sdk/monkeyrunner" name="tpruvot/android_sdk_monkeyrunner" remote="github" />
   <project path="frameworks/base/core/tests/hosttests" name="tpruvot/empty" remote="github" />
+  -->
 
   <project path="system/bluetooth" name="CyanogenDefy/android_system_bluetooth" remote="github" />
   <project path="system/core" name="tpruvot/android_system_core" remote="github" />
