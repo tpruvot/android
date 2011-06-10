@@ -1,9 +1,13 @@
 #!/bin/bash
 
+git checkout gingerbread
+
 git pull
 
-# git fetch cyanogen
-# git merge remotes/cyanogen/gingerbread
+git fetch cyanogen
+git rebase -v remotes/cyanogen/gingerbread cyanogen
+
+git checkout gingerbread
 
 # git remote add tpruvot git://github.com/tpruvot/android.git
 #git fetch tpruvot
@@ -13,4 +17,4 @@ git pull
 #git fetch quarx
 #git merge remotes/quarx/gingerbread
 
-# git push
+git push
