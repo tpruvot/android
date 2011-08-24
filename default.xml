@@ -11,7 +11,7 @@
   <default revision="gingerbread"
            remote="korg" />
 
-  <project path="build" name="CyanogenMod/android_build" remote="github">
+  <project path="build" name="tpruvot/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="tpruvot/android_bionic" remote="github" />
@@ -183,7 +183,7 @@
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" remote="github" revision="master" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/skia" name="CyanogenMod/android_external_skia" remote="github" />
+  <project path="external/skia" name="tpruvot/android_external_skia" remote="github" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" remote="github" />
@@ -219,7 +219,8 @@
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" />
   <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" remote="github" />
-  <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3" remote="github" />
+  <project path="hardware/ti/omap3" name="tpruvot/android_hardware_ti_omap3" remote="github" />
+  <project path="hardware/ti/omx" name="tpruvot/android_hardware_ti_omx" remote="github" />
   <project path="hardware/ti/wlan" name="CyanogenDefy/android_hardware_ti_wlan" remote="github" />
 
   <project path="libcore" name="CyanogenMod/android_libcore" remote="github" />
