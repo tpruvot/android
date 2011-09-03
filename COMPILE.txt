@@ -16,7 +16,7 @@ cd vendor/cyanogen && ./get-rommanager
 Build:
 ======
 
-optional :
+optional (for manual env setup) :
     export PLATFORM_DIR=$(pwd)
     export ARCH=arm
     export CROSS_COMPILE=arm-eabi-
@@ -40,6 +40,13 @@ lunch cyanogen_jordan-eng
 mka bacon
 
 use the signed zip to update the defy with Second Init recovery, or CM7 bootmenu recovery, not the ota package
+
+
+Snapshot:
+=========
+If you want to backup the state of your repo for a release you can use this command to create a state file :
+
+repo forall -c 'echo "$REPO_PATH : $REPO_REMOTE/$REPO_PROJECT : $REPO_RREV : $REPO_LREV"' > jordan-rc1-heads.txt
 
 Links:
 ======
