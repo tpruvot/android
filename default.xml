@@ -313,6 +313,5 @@
   <project path="android" name="CyanogenMod/android" />
 
   <project path="external/DroidSSHd" name="tpruvot/android_external_droidsshd" revision="gingerbread" />
-  <project path="external/VLC" name="tpruvot/android_external_vlc" revision="gingerbread" />
 
 </manifest>
