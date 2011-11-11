@@ -204,7 +204,7 @@
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" revision="master" />
   <project path="external/quake" name="CyanogenMod/android_external_quake" />
   <project path="external/safe-iop" name="CyanogenMod/android_external_safe-iop" />
-  <project path="external/skia" name="CyanogenMod/android_external_skia" />
+  <project path="external/skia" name="tpruvot/android_external_skia" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" />
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" />
@@ -296,7 +296,7 @@
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
-  <project path="packages/apps/Usb" name="CyanogenMod/android_packages_apps_Usb" />
+  <project path="packages/apps/Usb" name="tpruvot/android_packages_apps_Usb" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
   <project path="packages/inputmethods/LatinIME" name="CyanogenDefy/android_packages_inputmethods_LatinIME" />
