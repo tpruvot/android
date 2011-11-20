@@ -208,6 +208,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
+<project path="packages/apps/Usb" name="CyanogenMod/android_packages_apps_Usb" remote="github" revision="gingerbread" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
@@ -241,5 +242,8 @@
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
 
+<project path="vendor/motorola" name="Quarx2k/proprietary_vendor_motorola" remote="github" revision="ics" />
+
   <project path="android" name="CyanogenMod/android" />
+
 </manifest>
