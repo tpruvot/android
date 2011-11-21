@@ -46,7 +46,7 @@
 <project path="external/bootmenu" name="tpruvot/android_external_bootmenu" revision="ics" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" />
-<project path="external/busybox" name="tpruvot/android_external_busybox" revision="ics" />
+<project path="external/busybox" name="tpruvot/android_external_busybox" />
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" />
   <project path="external/chromium" name="CyanogenMod/android_external_chromium" />
   <project path="external/clang" name="platform/external/clang" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
@@ -151,7 +151,7 @@
   <project path="external/xmlwriter" name="CyanogenMod/android_external_xmlwriter" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
+<project path="frameworks/base" name="tpruvot/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" />
@@ -242,7 +242,7 @@
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
 
-<project path="vendor/motorola" name="Quarx2k/proprietary_vendor_motorola" remote="github" revision="ics" />
+<project path="vendor/motorola" name="CyanogenDefy/proprietary_vendor_motorola" revision="ics" />
 
   <project path="android" name="CyanogenMod/android" />
 
