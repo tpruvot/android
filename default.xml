@@ -5,10 +5,10 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
-           fetch="git://github.com/" 
+           fetch="https://github.com/"
            review="review.cyanogenmod.com" />
 
-  <default revision="refs/heads/ics"
+  <default revision="ics"
            remote="github"
            sync-j="4" />
 
@@ -16,7 +16,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
-  <project path="bionic" name="CyanogenMod/android_bionic" />
+<project path="bionic" name="tpruvot/android_bionic" revision="ics" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
 <project path="bootable/recovery" name="tpruvot/android_bootable_recovery" revision="ics" />
@@ -244,6 +244,8 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
 
 <project path="vendor/motorola" name="CyanogenDefy/proprietary_vendor_motorola" revision="ics" />
+
+<project path="external/DroidSSHd" name="tpruvot/android_external_droidsshd" revision="gingerbread" />
 
   <project path="android" name="CyanogenMod/android" />
 
