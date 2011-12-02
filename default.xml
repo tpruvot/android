@@ -185,6 +185,7 @@
 <project path="hardware/ti/wlan" name="CyanogenDefy/android_hardware_ti_wlan" revision="ics" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
+<project path="packages/apps/AndroidTerm" name="tpruvot/android_packages_apps_AndroidTerm" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.0.1_r1" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
@@ -251,7 +252,7 @@
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/su" name="CyanogenMod/android_system_su" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" />
+<project path="system/vold" name="Quarx2k/android_system_vold" />
 
 <project path="vendor/motorola" name="CyanogenDefy/proprietary_vendor_motorola" revision="ics" />
 
