@@ -269,7 +269,8 @@
 
 <project path="device/moto/hijack" name= "MotoMagic/android_device_moto_hijack" />
 
-<project path="external/DroidSSHd" name="tpruvot/android_external_droidsshd" />
+<project path="packages/apps/DroidSSHd" name="tpruvot/android_external_droidsshd" />
+<project path="packages/apps/CMSettings" name="Danesh/android_packages_apps_CMSettings" />
 
   <project path="android" name="CyanogenMod/android" />
 
