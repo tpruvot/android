@@ -19,7 +19,7 @@
     <copyfile src="target/platform/omap.mk" dest="hardware/ti/Android.mk" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-<project path="bionic" name="tpruvot/android_bionic" revision="ics" />
+<project path="bionic" name="tpruvot/android_bionic" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
 <project path="bootable/recovery" name="tpruvot/android_bootable_recovery" />
