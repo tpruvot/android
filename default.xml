@@ -341,6 +341,7 @@
 
   <project path="android" name="CyanogenMod/android" />
 
-  <project path="external/DroidSSHd" name="tpruvot/android_external_droidsshd" revision="gingerbread" />
+  <project path="packages/apps/DroidSSHd" name="tpruvot/android_external_droidsshd" />
+  <project path="packages/apps/RomUpdater" name="CyanogenDefy/RomUpdater" />
 
 </manifest>
