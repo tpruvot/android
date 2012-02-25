@@ -6,6 +6,7 @@
 
   <remote  name="github"
            fetch="git://github.com/"
+           push="https://github.com/"
            review="review.cyanogenmod.com" />
 
   <default revision="gingerbread"
@@ -18,7 +19,7 @@
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="tpruvot/android_bootable_recovery" />
-  <project path="dalvik" name="tpruvot/android_dalvik" />
+  <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/advent/vega" name="CyanogenMod/android_device_advent_vega" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
