@@ -326,7 +326,7 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
-  <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" />
+  <project path="system/wlan/ti" name="tpruvot/android_system_wlan_ti" />
 
   <project path="vendor/cyanogen" name="CyanogenDefy/android_vendor_cyanogen" />
   <project path="vendor/motorola" name="CyanogenDefy/proprietary_vendor_motorola" />
