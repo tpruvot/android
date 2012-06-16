@@ -46,6 +46,7 @@
 <project path="external/busybox" name="tpruvot/android_external_busybox" />
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" />
   <project path="external/chromium" name="CyanogenMod/android_external_chromium" />
+  <project path="external/chromium-trace" name="platform/external/chromium-trace" remote="aosp" revision="master" />
   <project path="external/clang" name="CyanogenMod/android_external_clang" />
   <project path="external/collada" name="platform/external/collada" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/dbus" name="CyanogenMod/android_external_dbus" />
