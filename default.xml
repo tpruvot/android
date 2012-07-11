@@ -25,7 +25,7 @@
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
+  <project path="bootable/recovery" name="tpruvot/android_bootable_recovery" remote="github" revision="ics" />
   <project path="cts" name="CyanogenMod/android_cts" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
@@ -325,6 +325,7 @@
   <project path="device/motorola/jordan" name="Quarx2k/android_device_motorola_jordan" remote="github" revision="jellybean" />
   <project path="device/motorola/jordan_plus" name="Quarx2k/android_device_moto_mb526" remote="github" revision="jellybean" />
   <project path="device/moto/kobe" name="CyanogenKobe/android_device_moto_mb520" remote="github" revision="jellybean" />
+  <project path="external/bootmenu" name="tpruvot/android_external_bootmenu" remote="github" revision="ics" />
 
 
 </manifest>
