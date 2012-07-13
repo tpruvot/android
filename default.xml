@@ -257,7 +257,7 @@
 
   <project path="packages/apps/AccountsAndSyncSettings" name="CyanogenMod/android_packages_apps_AccountsAndSyncSettings" />
   <project path="packages/apps/AicBootFix" name="CyanogenMod/android_packages_apps_AicBootFix" revision="master"/>
-<project path="packages/apps/ADWLauncher" name="CyanogenDefy/android_packages_apps_ADWLauncher" />
+  <project path="packages/apps/ADWLauncher" name="CyanogenMod/android_packages_apps_ADWLauncher" />
   <project path="packages/apps/AndroidTerm" name="CyanogenMod/android_packages_apps_AndroidTerm" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
@@ -271,10 +271,10 @@
   <project path="packages/apps/CMUpdateNotify" name="CyanogenMod/android_packages_apps_CMUpdateNotify" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/CMWimaxSettings" name="CyanogenMod/android_packages_apps_CMWimaxSettings" />
-<project path="packages/apps/Contacts" name="tpruvot/android_packages_apps_Contacts" />
+  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
   <project path="packages/apps/DockAudio" name="CyanogenMod/android_packages_apps_DockAudio" />
-<project path="packages/apps/DSPManager" name="CyanogenDefy/android_packages_apps_DSPManager" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" />
   <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" />
@@ -302,7 +302,7 @@
 <project path="packages/apps/Usb" name="tpruvot/android_packages_apps_Usb" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
-<project path="packages/inputmethods/LatinIME" name="CyanogenDefy/android_packages_inputmethods_LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" />
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" />
@@ -344,6 +344,6 @@
   <project path="android" name="CyanogenMod/android" />
 
 <project path="packages/apps/DroidSSHd" name="tpruvot/android_external_droidsshd" />
-<project path="packages/apps/RomUpdater" name="CyanogenDefy/RomUpdater" />
+<project path="packages/apps/RomUpdater" name="tpruvot/RomUpdater" />
 
 </manifest>
