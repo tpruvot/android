@@ -21,14 +21,16 @@
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
 <project path="bootable/recovery" name="tpruvot/android_bootable_recovery" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
-  <project path="development" name="CyanogenMod/android_development" />
+<project path="development" name="platform/development" remote="aosp" revision="ics-plus-aosp" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="external/aac" name="platform/external/aac" remote="aosp" revision="master" />
+  <project path="external/android-clat" name="platform/external/android-clat" remote="aosp" revision="master" />
+  <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="master" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
@@ -66,6 +68,7 @@
   <project path="external/flac" name="CyanogenMod/android_external_flac" />
   <project path="external/freetype" name="CyanogenMod/android_external_freetype" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" />
+  <project path="external/gcc-demangle" name="platform/external/gcc-demangle" remote="aosp" revision="master" />
   <project path="external/genext2fs" name="CyanogenMod/android_external_genext2fs" />
   <project path="external/giflib" name="CyanogenMod/android_external_giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -188,7 +191,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
 <project path="hardware/ti/wlan" name="tpruvot/android_hardware_ti_wlan" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
-  <project path="ndk" name="CyanogenMod/android_ndk" />
+<project path="ndk" name="platform/ndk" remote="aosp" revision="ics-plus-aosp" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
