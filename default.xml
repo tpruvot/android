@@ -330,6 +330,6 @@
   <project path="external/bootmenu" name="tpruvot/android_external_bootmenu" remote="github" revision="ics" />
   <project path="system/wlan/ti" name="tpruvot/android_system_wlan_ti" revision="gingerbread" />
   <project path="external/hostapd" name="tpruvot/android_external_hostapd" remote="github" revision="ics" />
-
+  <project path="packages/apps/HwaSettings" name="tpruvot/HwaSettings" revision="master" />
 
 </manifest>
