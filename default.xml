@@ -25,7 +25,7 @@
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
-<project path="bootable/recovery" name="tpruvot/android_bootable_recovery" remote="github" />
+<project path="bootable/recovery" name="tpruvot/android_bootable_recovery" />
   <project path="cts" name="CyanogenMod/android_cts" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
@@ -53,7 +53,7 @@
   <project path="external/bluetooth/hcidump" name="CyanogenMod/android_external_bluetooth_hcidump" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" />
   <project path="external/checkpolicy" name="CyanogenMod/android_external_checkpolicy" />
   <project path="external/chromium" name="CyanogenMod/android_external_chromium" />
@@ -184,14 +184,14 @@
   <project path="external/webkit" name="CyanogenMod/android_external_webkit" />
   <project path="external/webp" name="CyanogenMod/android_external_webp" />
   <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" />
-<project path="external/wpa_supplicant_6" name="tpruvot/android_external_wpa_supplicant_6" remote="github" revision="ics" />
+<project path="external/wpa_supplicant_6" name="tpruvot/android_external_wpa_supplicant_6" revision="ics" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" />
   <project path="external/xmlwriter" name="CyanogenMod/android_external_xmlwriter" />
 <project path="external/yaffs2" name="tpruvot/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
-  <project path="frameworks/av" name="Quarx2k/android_frameworks_av" remote="github" />
-<project path="frameworks/base" name="tpruvot/android_frameworks_base" remote="github" />
+  <project path="frameworks/av" name="Quarx2k/android_frameworks_av" />
+<project path="frameworks/base" name="tpruvot/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" />
@@ -199,7 +199,7 @@
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  <project path="frameworks/native" name="Quarx2k/android_frameworks_native" remote="github" />
+  <project path="frameworks/native" name="Quarx2k/android_frameworks_native" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" />
@@ -222,7 +222,7 @@
   <project path="hardware/ril" name="Quarx2k/android_hardware_ril" />
   <project path="hardware/ti/omap3" name="Quarx2k/android_hardware_ti_omap3-compat" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
-<project path="hardware/ti/wlan" name="CyanogenDefy/android_hardware_ti_wlan" remote="github" revision="ics" />
+<project path="hardware/ti/wlan" name="CyanogenDefy/android_hardware_ti_wlan" revision="ics" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
@@ -321,19 +321,19 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
 
-<project path="packages/apps/Usb" name="CyanogenDefy/android_packages_apps_Usb" remote="github" revision="ics" />
-<project path="packages/apps/DroidSSHd" name="tpruvot/android_external_droidsshd" remote="github" revision="ics" />
-<project path="packages/apps/RomUpdater" name="CyanogenDefy/RomUpdater" remote="github" revision="ics" />
+<project path="packages/apps/Usb" name="CyanogenDefy/android_packages_apps_Usb" revision="ics" />
+<project path="packages/apps/DroidSSHd" name="tpruvot/android_external_droidsshd" revision="ics" />
+<project path="packages/apps/RomUpdater" name="CyanogenDefy/RomUpdater" />
 
-<project path="vendor/motorola" name="Quarx2k/proprietary_vendor_motorola" remote="github" revision="ics" />
-<project path="device/motorola/defy_common" name="Quarx2k/android_device_defy_common" remote="github" />
-<project path="device/motorola/jordan" name="Quarx2k/android_device_motorola_jordan" remote="github" />
-<project path="device/motorola/jordan_plus" name="Quarx2k/android_device_moto_mb526" remote="github" />
-<project path="device/moto/kobe" name="CyanogenKobe/android_device_moto_mb520" remote="github" />
+<project path="vendor/motorola" name="Quarx2k/proprietary_vendor_motorola" revision="ics" />
+<project path="device/motorola/defy_common" name="Quarx2k/android_device_defy_common" />
+<project path="device/motorola/jordan" name="Quarx2k/android_device_motorola_jordan" />
+<project path="device/motorola/jordan_plus" name="Quarx2k/android_device_moto_mb526" />
+<project path="device/moto/kobe" name="CyanogenKobe/android_device_moto_mb520" />
 
-<project path="external/bootmenu" name="tpruvot/android_external_bootmenu" remote="github" revision="touch" />
+<project path="external/bootmenu" name="tpruvot/android_external_bootmenu" revision="touch" />
 <!-- <project path="system/wlan/ti" name="tpruvot/android_system_wlan_ti" revision="gingerbread" /> -->
-<project path="external/hostapd" name="tpruvot/android_external_hostapd" remote="github" revision="ics" />
-<project path="packages/apps/HwaSettings" name="tpruvot/HwaSettings" revision="master" />
+<project path="external/hostapd" name="tpruvot/android_external_hostapd" revision="ics" />
+<project path="packages/apps/HwaSettings" name="tpruvot/HwaSettings" />
 
 </manifest>
