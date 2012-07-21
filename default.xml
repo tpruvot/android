@@ -332,7 +332,7 @@
 <project path="device/motorola/jordan_plus" name="Quarx2k/android_device_moto_mb526" />
 <project path="device/moto/kobe" name="CyanogenKobe/android_device_moto_mb520" />
 
-<project path="external/bootmenu" name="tpruvot/android_external_bootmenu" revision="touch" />
+<project path="external/bootmenu" name="tpruvot/android_external_bootmenu" />
 <!-- <project path="system/wlan/ti" name="tpruvot/android_system_wlan_ti" revision="gingerbread" /> -->
 <project path="external/hostapd" name="tpruvot/android_external_hostapd" revision="ics" />
 <project path="packages/apps/HwaSettings" name="tpruvot/HwaSettings" />
