@@ -40,8 +40,13 @@ Then to sync up:
 And finally to build:
 
     cd vendor/cm && ./get-prebuilts
+    croot
 
-    . build/envsetup.sh && brunch jordan
+    . build/envsetup.sh && brunch mb525
+
+or for the Defy+ and Defy GB kernel (red lens only)
+
+    . build/envsetup.sh && brunch mb526
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.com/) for building instructions.
 
