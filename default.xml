@@ -2,14 +2,14 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com" />
+           fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
            fetch="https://github.com/"
            review="review.cyanogenmod.com" />
 
   <remote  name="private"
-           fetch="ssh://git@github.com" />
+           fetch="ssh://git@github.com/" />
 
   <default revision="refs/heads/jellybean"
            remote="github"
@@ -190,7 +190,7 @@
 <project path="external/yaffs2" name="tpruvot/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
-  <project path="frameworks/av" name="Quarx2k/android_frameworks_av" />
+<project path="frameworks/av" name="tpruvot/android_frameworks_av" />
 <project path="frameworks/base" name="tpruvot/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" />
@@ -199,7 +199,7 @@
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  <project path="frameworks/native" name="Quarx2k/android_frameworks_native" />
+<project path="frameworks/native" name="tpruvot/android_frameworks_native" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" />
@@ -214,14 +214,14 @@
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
-  <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" />
+<project path="hardware/libhardware_legacy" name="tpruvot/android_hardware_libhardware_legacy" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
-  <project path="hardware/ril" name="Quarx2k/android_hardware_ril" />
-  <project path="hardware/ti/omap3" name="Quarx2k/android_hardware_ti_omap3-compat" />
+<project path="hardware/ril" name="Quarx2k/android_hardware_ril" />
+<project path="hardware/ti/omap3" name="Quarx2k/android_hardware_ti_omap3-compat" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
 <project path="hardware/ti/wlan" name="CyanogenDefy/android_hardware_ti_wlan" revision="ics" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
@@ -323,6 +323,7 @@
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
 
 <project path="packages/apps/Usb" name="CyanogenDefy/android_packages_apps_Usb" revision="ics" />
+<project path="packages/apps/MotoFM" name="tpruvot/android_packages_apps_MotoFM" />
 <project path="packages/apps/DroidSSHd" name="tpruvot/android_external_droidsshd" revision="ics" />
 <project path="packages/apps/RomUpdater" name="CyanogenDefy/RomUpdater" />
 
