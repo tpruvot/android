@@ -221,7 +221,7 @@
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
 <project path="hardware/ril" name="Quarx2k/android_hardware_ril" />
-<project path="hardware/ti/omap3" name="Quarx2k/android_hardware_ti_omap3-compat" />
+<project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
 <project path="hardware/ti/wlan" name="CyanogenDefy/android_hardware_ti_wlan" revision="ics" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
