@@ -328,7 +328,7 @@
 
 <project path="packages/apps/Usb" name="CyanogenDefy/android_packages_apps_Usb" revision="ics" />
 <project path="packages/apps/MotoFM" name="tpruvot/android_packages_apps_MotoFM" />
-<project path="packages/apps/DroidSSHd" name="tpruvot/android_external_droidsshd" revision="ics" />
+<project path="packages/apps/DroidSSHd" name="tpruvot/android_external_droidsshd" />
 <project path="packages/apps/RomUpdater" name="CyanogenDefy/RomUpdater" />
 
 <project path="vendor/motorola" name="CyanogenDefy/proprietary_vendor_motorola" />
