@@ -40,7 +40,7 @@
   <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" />
   <project path="external/bluetooth/glib" name="CyanogenMod/android_external_bluetooth_glib" />
   <project path="external/bluetooth/hcidump" name="CyanogenMod/android_external_bluetooth_hcidump" />
-<project path="external/bootmenu" name="tpruvot/android_external_bootmenu" />
+<project path="external/bootmenu" name="tpruvot/android_external_bootmenu" revision="touch" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" />
 <project path="external/busybox" name="tpruvot/android_external_busybox" />
@@ -212,6 +212,7 @@
 <project path="packages/apps/HwaSettings" name="tpruvot/HwaSettings" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
+<project path="packages/apps/MotoFM" name="tpruvot/android_packages_apps_MotoFM" revision="jellybean" />
   <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" />
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
