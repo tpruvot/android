@@ -13,6 +13,7 @@
 
   <default revision="refs/heads/jellybean"
            remote="github"
+           sync-c="true"
            sync-j="2" />
 
   <project path="build" name="CyanogenMod/android_build">
