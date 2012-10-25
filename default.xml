@@ -10,6 +10,7 @@
 
   <default revision="ics"
            remote="github"
+           sync-c="true"
            sync-j="4" />
 
 <project path="build" name="tpruvot/android_build">
