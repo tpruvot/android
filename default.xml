@@ -353,4 +353,6 @@
 <project path="external/hostapd" name="tpruvot/android_external_hostapd" revision="ics" />
 <project path="packages/apps/HwaSettings" name="tpruvot/HwaSettings" />
 
+<project path="device/samsung/galaxyr" name="Adam77Root/android_device_samsung_galaxyr" revision="jellybean" />
+
 </manifest>
