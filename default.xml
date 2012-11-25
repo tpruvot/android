@@ -333,6 +333,8 @@
 <project path="vendor/cyanogen" name="CyanogenDefy/android_vendor_cyanogen" />
 <project path="vendor/motorola" name="CyanogenDefy/proprietary_vendor_motorola" />
 <project path="vendor/samsung/i9103" name="epsylon3/android_vendor_samsung_i9103" />
+<project path="packages/apps/MotoFM" name="maniac103/android_packages_apps_MotoFM"/>
+<project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" />
 
   <project path="vendor/qcom/opensource/webkit" name="CyanogenMod/android_vendor_qcom_opensource_webkit" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
